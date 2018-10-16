@@ -1,0 +1,23 @@
+.bg1{
+    width: 60%;
+    position: absolute;
+    float: right;
+    right: 0px;
+    top: 20px;
+}
+.deadline{
+    font-weight: bold;
+}
+.topic{
+    font-weight: bold;
+    color: #0aca86;
+    font-family: 'MetropolisBold';
+    font-size: xx-large;
+    line-height: 0.5;
+}
+.info{
+    font-size: small;
+}
+.section{
+ width: 100%;
+}

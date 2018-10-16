@@ -1,0 +1,213 @@
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+    width: 100%;
+    font-family: 'Metropolis';
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+.container-fluid{
+    padding: 0px;
+}
+a:hover{
+    color: unset;
+    text-decoration: none;
+}
+.map-bg{
+    background-image: url("./../images/map.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.content:before{
+    content: "";
+    display: block;
+    clear: both;
+    height: 150px;
+}
+.list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.head-text{
+    color: #0aca86;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    line-height: 1.4;
+}
+
+.padding-10{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.solid-btn{
+    border: none;
+    background-color: #0aca86;
+    color: #ffffff;
+    box-shadow: 5px 5px 13px 0 rgba(112, 222, 183, 0.78);
+}
+
+.empty-btn{
+    border: solid 1px #0aca86;
+    background-color: #ffffff;
+    color: #0aca86;
+}
+
+#navdiv{
+	display: flex;
+	justify-content: flex-end;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background: #ffffff;
+	z-index: 10;
+}
+.pjflogo{
+	height: 100%;
+	padding-right: 25px;
+}
+.sharelogo{
+    height: 80%;
+}
+#logo{
+	height: 90%;
+	width: 300px;
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	transform: translate(114px,-50%);
+}
+.navitems{
+    margin-bottom: 0px;
+	list-style: none;
+	align-self: center;
+	margin-right: 50px;
+}
+/*Navbar*/
+.sidenav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #44516B;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #03B15E;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+.sidenav{
+    display:none;
+}
+.smallnav{
+  display: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 990px) {
+	.pjflogo{
+		padding-right: 25px;
+	}
+  .navbar-container{
+    display:none !important;
+  }
+  .smallnav{
+    display:block;
+    position:absolute;
+    z-index:4;
+    padding:15px;
+    background-color:white;
+  }
+  .sidenav{
+    display:block;
+  }
+  .hambar{
+    position:absolute;
+    right:15px;
+    z-index:4;
+  }
+}
+/*Navbar end*/
+
+.navitems li{
+	display: inline;
+	padding-right: 50px;
+    font-family: 'Metropolis';
+}
+
+.register_nav{
+    color: #0BC986;
+}
+
+/*footer*/
+.footer{
+    color: #ffffff;
+}
+.footer-heading{
+    font-weight: bold;
+}
+.footer-copy{
+    font-weight: bold;
+    font-family: 'MetropolisThin';
+    font-size: small;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.footer .col-md-4{
+    text-align: center;
+}
+.footer-content{
+    padding-top: 15px;
+    display: inline-block;
+    text-align: left;
+}
+.copy-container{
+    position: relative;
+}
+/*end footer*/
